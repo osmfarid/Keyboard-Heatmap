@@ -17,7 +17,10 @@
 
       var key = currentText.charAt(i);
       if(/^[A-Za-z]$/.test(key)){
-        key = key.toUpperCase();
+        if(key != 'i'){
+          key = key.toUpperCase();
+        }
+        
       }
       if(app.config.exclude && app.EXCLUDES.indexOf(key) == -1){
         var coord;
@@ -66,7 +69,7 @@
     if(cfg.gradient)
       config.gradient = cfg.gradient;
 
-    app.coordinates = app.LAYOUTS[cfg.layout || "QWERTY"];
+    app.coordinates = app.LAYOUTS[cfg.layout || "QUERTY"];
 
     var heatmap = h337.create(config);
     app.heatmap = heatmap;

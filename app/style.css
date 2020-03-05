@@ -14,6 +14,7 @@ html{height:100%}body{height:100%;overflow:auto;font-family:Helvetica,Arial,Sans
                 border: 5px solid grey;
                 height: 80px;
                 word-wrap: break-word;
+                font-family: Arial, Helvetica, sans-serif;
             }
             #inputarea {
                 padding: 15px 0px 15px 0px;
@@ -25,7 +26,7 @@ html{height:100%}body{height:100%;overflow:auto;font-family:Helvetica,Arial,Sans
                 height:373px;
                 bottom:0;
                 padding:0;
-                background-image:url(img/QWERTY.png);
+                background-image:url(img/QUERTY.png);
             }
             #presample {
                 font-weight:bold;
